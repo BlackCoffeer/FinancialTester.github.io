@@ -5,21 +5,47 @@
     <title>金融测试博客</title>
     <style type="text/css">
       body{
-        background:#363b40;
-        color:white;
+        background:#f5f5f5;
+        padding: 10px;
+      }
+      .desc{
+        font-size:15px;
+        text-indent: 2em;
+        font-family:仿宋;
+        padding-bottom: 10px;
       }
       .header{
-        text-align:center;
+        text-align:left;
         font-size:40px;
-        padding:20px 0px 30px 20px;
+        padding:20px 0px 40px 60px;
       }
-      .business{
-        float:left;
-        width:49%;
+      .desc-title{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        border-left: 3px solid red;
       }
-      .technology{
+      .list-title{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 5px;
+        margin-bottom: 10px;
+        border-left: 3px solid red;
+      }
+      .connect-title{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 5px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-left: 3px solid red;
+      }
+      .left{
         float:left;
-        width:49%;
+        width:20%;
+        padding-left: 60px;
+        padding-right: 20px;
       }
       .title{
         font-size: 20px;
@@ -27,22 +53,90 @@
         padding-bottom: 7px;
         width: 100%;
       }
+      a {
+         text-decoration: none;
+      }
+      a:link {color: black}
+      a:checked{color: black}
+      a:hover {color: orange}
+      .business{
+      }
+      .footer{
+        float: none;
+        padding: 20px;
+        height: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .business{
+      padding-left:20px;
+      float:left;
+      width:30%;
+    }
+    .technology{
+      float:left;
+      padding-left:20px;
+      width:30%;
+    }
+
     </style>
   </head>
   <body>
     <div class="header">
       <span>金融测试博客</span>
     </div>
-    <div class="business">
-      <div class="title">
-        测试业务
+    <div class="left">
+      <div class="desc-title">
+        博客介绍
       </div>
-      <div class="lists">
-        <div class="list"><a href="./securities/new_three_ boards.html">新三板业务</a></div>
+      <div class="desc">博客的内容主要包括两部分:证券业务及测试技术，以证券业务为主，对于金融测试人而言，不管你是
+         做黑盒测试还是灰盒、白盒测试，对需求，对业务的理解都是至关重要的，由于金融的业务相比较于其
+         它的测试分支而言，要复杂的多，从简单的股票交易到复杂的金融衍生品交易，都给初入金融行业的
+         测试人一定的压力，为此我们希望能有一个平台，去帮助初入者系统的快速学习金融测试知识。由于金融
+         业务错综复杂，在细节上不一定都能记住，所以我们也希望能成为一个金融业务的查询平台。
+      </div>
+      <div class="desc">
+        为此我们在Github上建立一个开放的GitHub Pages网页，来为我们自己的团队及从事金融行业的测试人提供一个
+        相对可靠的业务参考平台。我们希望能够对金融业务实现全面覆盖，包括股票、基金、债券、新三板、融资融券、期权、期货、
+        港股、美股、存托凭证等。我们尽可能的去保证内容的准确性、有效性，但是难免会存在疏漏之处，如有
+        问题，麻烦联系管理员，宝剑锋从磨砺出,梅花香自苦寒来，愿我们的努力都能有所回报。
+      </div>
+      <div class="connect-title">其他信息</div>
+      <div class="connect">
+        <span style="margin-top:20px;padding-right:10px;">邮箱:</span>
+        <span style="font-family:宋体;">gibranyang@foxmail.com</span>
+      </div>
+      <div class="connect">
+        <span style="margin-top:20px;padding-right:10px;font-family:宋体;">作者:</span>
+        <span style="font-family:宋体;">UAT测试团队</span>
+      </div>
+      <div class="connect">
+        <span style="margin-top:20px;padding-right:10px;">声明:</span>
+        <span>网站内容仅供学习参考</span>
+      </div>
+      <div class="connect">
+        <span style="margin-top:20px;padding-right:10px;font-family:宋体;">提示:</span>
+        <span style="color:red;font-size:10px;">本站内容不可作为投资依据，如有亏损与本站无关</span>
       </div>
     </div>
-      <div class="title">
-        测试技术
+      <div class="business">
+        <div class="list-title">证券业务</div>
+        <div style="border-bottom:1px dashed #b68052;padding-bottom:2px;">
+          <span  style="padding-right:5px;">1.</span>
+          <a href="./securities/new_three_ boards.html">新三板业务</a>
+          <span style="padding-left:150px;">更新时间:</span>
+          <span>2020年4月2日</span>
+        </div>
       </div>
+      <div class="technology">
+        <div class="list-title">测试技术</div>
+        <div style="border-bottom:1px dashed #b68052;padding-bottom:2px;">
+          <span  style="padding-right:5px;">1.</span>
+          <a href="">需求分析方法</a>
+          <span style="padding-left:130px;">更新时间:</span>
+          <span>2020年4月2日</span>
+        </div>
+      </div>
+  </div>
   </body>
 </html>
